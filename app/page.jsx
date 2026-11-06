@@ -17,7 +17,7 @@ const projects = [
   { id:"02", category:"E-commerce", name:"Shopify storefront", type:"E-commerce design direction", image:"https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1200&q=85", label:"Product discovery, detail and purchase" },
   { id:"03", category:"Social commerce", name:"Social shopping journey", type:"Social commerce direction", image:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=85", label:"A product-led path from content to shop" },
   { id:"04", category:"Automation", name:"Enquiry workflow system", type:"Business automation direction", image:"https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85", label:"A clearer view of incoming opportunities" },
-  { id:"05", category:"Mobile", name:"Mobile product interface", type:"Mobile experience direction", image:"https://images.unsplash.com/photo-1512941937669-90a1b58e7e9?auto=format&fit=crop&w=1200&q=85", label:"A focused experience designed for mobile" }
+  { id:"05", category:"Mobile", name:"Mobile product interface", type:"Mobile experience direction", image:"/mobile-app-concept.svg", label:"A focused experience designed for mobile" }
 ];
 
 const faqs = [

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26362d"/><stop offset=".55" stop-color="#111a16"/><stop offset="1" stop-color="#796344"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f4efe4"/><stop offset="1" stop-color="#d9d1c2"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7ce9b"/><stop offset="1" stop-color="#9b7947"/></linearGradient>
+ <filter id="shadow" x="-40%" y="-30%" width="180%" height="180%"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="1200" height="800" fill="url(#bg)"/>
+<circle cx="920" cy="140" r="240" fill="#d1b47b" opacity=".12" filter="url(#shadow)"/>
+<circle cx="230" cy="680" r="220" fill="#9eaa8c" opacity=".12" filter="url(#shadow)"/>
+<path d="M0 620 Q300 500 560 650 T1200 580 V800 H0Z" fill="#080d0a" opacity=".28"/>
+<g transform="translate(390 65) rotate(-7 210 340)">
+ <rect x="15" y="15" width="420" height="690" rx="58" fill="#050706" opacity=".5" filter="url(#shadow)"/>
+ <rect x="0" y="0" width="420" height="690" rx="56" fill="#101310" stroke="#d7c49e" stroke-opacity=".65" stroke-width="3"/>
+ <rect x="15" y="15" width="390" height="660" rx="44" fill="url(#screen)"/>
+ <rect x="155" y="24" width="110" height="20" rx="10" fill="#101310"/>
+ <text x="42" y="83" font-family="Arial,sans-serif" font-size="14" letter-spacing="2" fill="#5c624f">GOOD MORNING</text>
+ <text x="42" y="126" font-family="Georgia,serif" font-size="34" fill="#1d2b22">Your day,</text>
+ <text x="42" y="164" font-family="Georgia,serif" font-size="34" font-style="italic" fill="#9b7947">in focus.</text>
+ <rect x="35" y="190" width="350" height="190" rx="18" fill="#26382e"/>
+ <circle cx="300" cy="265" r="66" fill="#c7a66a" opacity=".2"/>
+ <path d="M230 326 Q265 240 315 278 T375 240 V365 H230Z" fill="url(#gold)" opacity=".8"/>
+ <text x="58" y="232" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" fill="#d8c7a5">YOUR OVERVIEW</text>
+ <text x="58" y="292" font-family="Georgia,serif" font-size="38" fill="#f3eee2">Today</text>
+ <text x="58" y="328" font-family="Arial,sans-serif" font-size="13" fill="#d8d8c9">Everything moving forward.</text>
+ <text x="40" y="426" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#29352b">QUICK ACTIONS</text>
+ <g fill="#fffaf0" stroke="#c8bda8">
+  <rect x="35" y="447" width="165" height="78" rx="13"/><rect x="218" y="447" width="167" height="78" rx="13"/>
+  <rect x="35" y="540" width="350" height="78" rx="13"/>
+ </g>
+ <g fill="#9b7947"><circle cx="63" cy="474" r="9"/><circle cx="246" cy="474" r="9"/><circle cx="65" cy="567" r="9"/></g>
+ <g font-family="Arial,sans-serif" font-size="12" fill="#303a30"><text x="52" y="503">Explore</text><text x="235" y="503">Messages</text><text x="54" y="596">Your next step</text></g>
+ <rect x="150" y="646" width="120" height="5" rx="3" fill="#283027"/>
+</g>
+<g fill="#eee6d5" font-family="Arial,sans-serif">
+ <text x="865" y="310" font-size="13" letter-spacing="4" fill="#d7bd8d">HC / DIGITAL PRODUCT</text>
+ <text x="860" y="375" font-size="46" font-family="Georgia,serif">Designed for</text>
+ <text x="860" y="430" font-size="46" font-family="Georgia,serif" font-style="italic" fill="#e1c58f">the way people</text>
+ <text x="860" y="485" font-size="46" font-family="Georgia,serif">move.</text>
+ <path d="M865 530 H1080" stroke="#c7a66a" stroke-width="2"/>
+ <text x="865" y="570" font-size="12" letter-spacing="2" fill="#c5c3b5">MOBILE APP EXPERIENCE</text>
+</g>
+</svg>

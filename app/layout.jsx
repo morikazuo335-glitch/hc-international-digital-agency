@@ -1,10 +1,14 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "HC International Digital Agency | We Build What Moves You Forward",
-  description: "An independent digital partner for ambitious brands. Premium web experiences, commerce, automation and white-label digital delivery.",
+  title: "HC International Digital Agency | Websites, Social Commerce & Automation",
+  description: "HC International Digital Agency delivers website design and development, Shopify e-commerce, TikTok Shop, Instagram Shop and Facebook Shop setup, business automation, AI workflows, mobile app experiences and white-label digital services for agencies.",
   icons: { icon: "/favicon.svg" },
-  openGraph: { title: "HC International Digital Agency", description: "Your vision. Our expertise. Your brand.", type: "website" }
+  openGraph: {
+    title: "HC International Digital Agency",
+    description: "Website development, social commerce, e-commerce, business automation and white-label digital delivery.",
+    type: "website"
+  }
 };
 
 export default function RootLayout({ children }) {
